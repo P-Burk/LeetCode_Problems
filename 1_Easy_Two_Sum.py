@@ -20,13 +20,10 @@ class Solution:
             else:                               # if found.....
                 return [dict1[x], pos]          # returns the value (AKA position) of the complement and the position of the current enumeration from line 16
 
+
 s = Solution()
-
-
 list1 = [2, 7, 11, 15]
 target1 = 9
-# test
-
 print(s.twoSum(list1, target1))
 
 # Pay attention to line 19. You want the number to be the KEY and the position to be the VALUE.
